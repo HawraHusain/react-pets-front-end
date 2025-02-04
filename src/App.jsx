@@ -7,7 +7,7 @@ import * as petService from './services/petService';
 import PetList from './components/PetList/PetList';
 import PetDetail from './components/PetDetail/PetDetail';
 import PetForm from './components/PetForm/PetForm';
-
+import './App.css';
 function App() {
   const [pets, setPets] = useState([]);
   const [selected, setSelected] = useState(null);
